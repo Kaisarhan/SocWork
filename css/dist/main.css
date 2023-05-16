@@ -4,3 +4,49 @@
 .nav a i {
   font-size: 25px;
 }
+
+.modal-client .client-data p {
+  margin: 0;
+}
+
+main {
+  /* .client-content{
+      display: flex;
+  } */
+}
+main .client-group {
+  /*         ol{
+              max-width: 24rem;
+          } */
+}
+main .client-group .list-group {
+  max-width: 25rem;
+}
+
+/* TimeLine strat */
+.timeline {
+  border-left: 1px solid #e6e6e6;
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 8px;
+}
+
+.timeline .timeline-item:after {
+  background-color: #e6e6e6;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+/* TimeLine end */
