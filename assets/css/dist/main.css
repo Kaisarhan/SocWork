@@ -12,11 +12,9 @@
   width: 100%;
   height: 7rem;
 }
-.modal-client .client-documents {
-  overflow-x: scroll;
-}
-.modal-client .client-documents img {
-  max-width: 7rem;
+
+#ClientDocumentsModal #myCarousel img {
+  max-height: 44rem;
 }
 
 main {
@@ -60,3 +58,8 @@ main .client-group .list-group {
 }
 
 /* TimeLine end */
+#myCarousel .f-carousel__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

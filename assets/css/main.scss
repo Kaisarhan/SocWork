@@ -16,10 +16,11 @@
             height: 7rem;
         }
     }
-    .client-documents{
-        overflow-x: scroll;
+}
+#ClientDocumentsModal{
+    #myCarousel{
         img{
-            max-width: 7rem;
+            max-height: 44rem;
         }
     }
 }
@@ -62,3 +63,8 @@ main{
     content: "";
   }
   /* TimeLine end */
+  #myCarousel .f-carousel__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
